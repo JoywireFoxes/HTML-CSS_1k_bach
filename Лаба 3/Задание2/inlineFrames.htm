@@ -1,0 +1,16 @@
+<!doctype html>
+<html>
+	<head>
+	<title>Встроенные фреймы - frame</title>
+	<link rel="stylesheet"
+	 href="ramka.css">
+	</head>
+	<body bgcolor="white">
+		<div class="window" align="center">
+			<h3>Создаем встроенный фрейм</h3>
+			<iframe src="doc3.htm" name="doc3" frameborder="1" width="300" height="200"></iframe>
+			<h4>Видите его?</h4>
+			<iframe srcdoc="<!doctype html><html><head></head><body bgcolor='green'>Элемент <b>iframe</b> с атрибутом <i>srcdoc</i></body></html>" name="doc2" frameborder="1" width="300" height="200"></iframe>
+		</div>
+	</body>
+</html>
