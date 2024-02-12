@@ -1,0 +1,9 @@
+.window {
+	border: 6px;
+	border-style: double;
+	border-color: #1a1713;
+	border-radius: 10px;
+	background-color: #f5deb3;
+	padding: 10px;
+	width: 450px;
+}

@@ -1,0 +1,38 @@
+.window {
+	border: 6px;
+	border-style: double;
+	border-color: #1a1713;
+	border-radius: 10px;
+	background-color: #f5deb3;
+	padding: 10px;
+	width: 450px;
+}
+
+.window2 {
+	border: 6px;
+	border-style: ridge;
+	border-color: #99bfcb;
+	background-color: #f5deb3;
+	padding: 10px;
+	width: 450px;
+}
+
+.window3 {
+	border: 2px;
+	border-style: ridge;
+	padding: 10px;
+	width: 45%;
+}
+
+table {
+	border: 4px solid;
+	border-collapse: collapse;
+	
+}
+
+td {
+	padding: 4px;
+}
+input {
+	margin: 6px 0;
+}

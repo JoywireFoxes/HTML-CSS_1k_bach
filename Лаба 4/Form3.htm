@@ -1,0 +1,152 @@
+<!doctype html
+<html>
+	<head>
+		<title>Формы 3</title>
+		<link rel="stylesheet"
+		href="css.css">
+	</head>
+	
+	<body>
+	<table border="1" width="70%">
+		<tr>
+			<td align="center">
+				<form name="forum" method="get">
+				<table bgcolor="wheat" width="80%" height="80%">
+				<tr>
+					<th colspan="2">РЕГИСТРАЦИОННАЯ ФОРМА<br>УЧАСТНИКА ФОРУМА</th>
+				</tr>
+				<tr>
+					<td align="right" width="20%"><b>Имя:</b></td>
+					<td><input accesskey="s" tabindex="1" size="24" name="name" /></td>
+				</tr>
+				<tr>
+					<td align="right"><b>Фамилия:</b></td>
+					<td><input tabindex="2" size="24" name="sname" /></td>
+				</tr>
+				<tr>
+					<td align="right"><b>Возраст:</b></td>
+					<td><input tabindex="3" size="8" name="bd" /></td>
+				</tr>
+				<tr>
+					<td align="right" valign="top" rowspan="2"><b>Пол:</b></td>
+					<td>
+						<input tabindex="4" type="radio" name="pol" value="m" /> Мужчина
+					</td>
+				</tr>
+				<tr>
+					<td>
+						<input tabindex="5" type="radio" name="pol" value="f" /> Женщина
+					</td>
+				</tr>
+				<tr>
+					<td align="right" rowspan="2"><b>Отношение к учёбе:</b>	</td>
+					<td>
+						<input tabindex="6" type="checkbox" name="Choise-1" /> Специальность выбрана неудачно
+					</td>
+				</tr>
+				<tr>
+					<td> 
+						<input tabindex="7" type="checkbox" name="Choise-2" /> Нравится учится
+					</td>
+				</tr>
+				<tr>
+					<td align="right"><b>Преимущественно используемая ОС:</b></td>
+					<td><select tabindex="8" name="OC">
+							<option> Windows 7</option>
+							<option> Windows XP</option>
+							<option> Windows Vista</option>
+							<option> Linux </option>
+						</select>
+					</td>
+				</tr>
+				<tr>
+					<td align="right"><b>Пароль для работы в нашей системе:</b></td>
+					<td><input type="password" tabindex="9" size="24" name="parol1" /></td>
+				</tr>
+				<tr>
+					<td align="right"><b>Повторить пароль:</b></td>
+					<td><input type="password" tabindex="10" size="24" name="parol2" /></td>
+				</tr>
+				<tr>
+					<td align="right" valign="top"><b>Пожелания:</b></td>
+					<td><textarea tabindex="11" name="Wishes" rows="10" cols="50">Что вы хотите пожелать участникам форума?</textarea></td>
+				</tr><tr>
+					<td align="center"><input tabindex="13" type="reset" value="Обновить форму" name="reset" /></td>
+					<td align="right"><input accesskey="e" tabindex="12" type="image" src="send.jpg" name="send" /></td>
+				</tr>
+				</form>
+				</table>
+			</td>
+			
+			<td align="center">
+				<form name="forum2" method="get">
+				<table bgcolor="wheat" border="3" width="80%" height="80%">
+				<tr>
+					<th colspan="2">РЕГИСТРАЦИОННАЯ ФОРМА<br> УЧАСТНИКА ФОРУМА</th>
+				</tr>
+				<tr>
+					<td align="right" width="20%"><b>Имя:</b></td>
+					<td><input accesskey="s" tabindex="14" size="24" name="name" /></td>
+				</tr>
+				<tr>
+					<td align="right"><b>Фамилия:</b></td>
+					<td><input tabindex="16" size="24" name="sname" /></td>
+				</tr>
+				<tr>
+					<td align="right"><b>Возраст:</b></td>
+					<td><input tabindex="15" size="8" name="bd" /></td>
+				</tr>
+				<tr>
+					<td align="right" valign="top" rowspan="2"><b>Пол:</b></td>
+					<td>
+						<input tabindex="19" type="radio" name="pol" value="m" /> Мужчина
+					</td>
+				</tr>
+				<tr>
+					<td>
+						<input tabindex="17" type="radio" name="pol" value="f" /> Женщина
+					</td>
+				</tr>
+				<tr>
+					<td align="right" rowspan="2"><b>Отношение к учёбе:</b>	</td>
+					<td>
+						<input tabindex="18" type="checkbox" name="Choise-1" /> Специальность выбрана неудачно
+					</td>
+				</tr>
+				<tr>
+					<td> 
+						<input tabindex="21" type="checkbox" name="Choise-2" /> Нравится учится
+					</td>
+				</tr>
+				<tr>
+					<td align="right"><b>Преимущественно используемая ОС:</b></td>
+					<td><select tabindex="20" name="OC">
+							<option> Windows 7</option>
+							<option> Windows XP</option>
+							<option> Windows Vista</option>
+							<option> Linux </option>
+						</select>
+					</td>
+				</tr>
+				<tr>
+					<td align="right"><b>Пароль для работы в нашей системе:</b></td>
+					<td><input type="password" tabindex="20.1" size="24" name="parol1" /></td>
+				</tr>
+				<tr>
+					<td align="right"><b>Повторить пароль:</b></td>
+					<td><input type="password" tabindex="20.01" size="24" name="parol2" /></td>
+				</tr>
+				<tr>
+					<td align="right" valign="top"><b>Пожелания:</b></td>
+					<td><textarea tabindex="22" name="Wishes" rows="10" cols="50">Что вы хотите пожелать участникам форума?</textarea></td>
+				</tr><tr>
+					<td align="center"><input tabindex="23" type="reset" value="Обновить форму" name="reset" /></td>
+					<td align="right"><input accesskey="r" tabindex="24" type="image" src="send.jpg" name="send" /></td>
+				</tr>
+				</form>
+				</table>
+			</td>
+		</tr>
+	</table>
+	</body>
+</html>
