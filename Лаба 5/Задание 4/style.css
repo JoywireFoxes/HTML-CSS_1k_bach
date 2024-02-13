@@ -1,0 +1,15 @@
+.main {
+	font-family: 'Arial';
+	font-size: 14px;
+	font-style: bold;
+	color: #FF0000;
+}
+
+div{
+	text-align: right;
+	padding: 4px;
+}
+
+.div212 {
+	text-align: left;
+}

@@ -1,0 +1,15 @@
+.main {
+	font-family: 'Arial';
+	font-size: 14px;
+	font-style: bold;
+	color: #FF0000;
+}
+
+[id=elem] {
+	font-size: 24px;
+	color: #00FF00;
+}
+
+p {
+	font-size: 40px;
+}

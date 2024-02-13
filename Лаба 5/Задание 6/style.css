@@ -1,0 +1,16 @@
+.main {
+	font-family: 'Arial';
+	font-size: 14px;
+	font-style: bold;
+	color: #FF0000;
+}
+
+i {
+	font-style: normal;
+	font-weight: 600;
+}
+
+b {
+	font-style: italic;
+	font-weight: normal;
+}
