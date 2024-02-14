@@ -1,0 +1,17 @@
+#diva {
+	position: relative;
+	top: 100px;
+	left: 50px;
+}
+
+#divb {
+	position: absolute;
+	top: 330px;
+	left: 275px;
+}
+
+#divc {
+	position: absolute;
+	top: 200px;
+	left: 180px;
+}

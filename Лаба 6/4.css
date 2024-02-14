@@ -1,0 +1,18 @@
+#quadro {
+	position: absolute;
+	top: 60px;
+	left: 275px;
+	z-index:1;
+	visibility: hidden;
+}
+#linero {
+	position: absolute;
+	top: 130px;
+	left: 55px;
+	z-index:0;
+}
+
+body {
+	background-color: #fffeab;
+	margin: 50px;
+}
