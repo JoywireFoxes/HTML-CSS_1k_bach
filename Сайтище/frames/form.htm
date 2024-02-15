@@ -1,0 +1,104 @@
+<!doctype html>
+<html>
+	<head>
+	<link rel="stylesheet"
+		href="form.css">
+	</head>
+	<body>
+		<div class="window3">
+		<form name="forum" method="get">
+		<table>
+		<tr>
+			<th colspan="2">Регистрационная форма для записи на лекционный курс пр. Шаболдаева</th>
+		</tr>
+		<tr>
+			<td align="right"><b>Имя:</b></td>
+			<td><input placeholder="Имя" accesskey="s" tabindex="1" size="24" name="1name" /></td>
+		</tr>
+		<tr>
+			<td align="right"><b>Фамилия:</b></td>
+			<td><input placeholder="Фамилия" tabindex="2" size="24" name="2name" /></td>
+		</tr>
+		<tr>
+			<td align="right"><b>Отчество:</b></td>
+			<td><input placeholder="Отчество" tabindex="2.1" size="24" name="3name" /></td>
+		</tr>
+		<tr>
+			<td>
+			</td>
+			<td>
+				<input tabindex="2.3" type="checkbox" name="Choise-3name" /> Нет отчества
+			</td>
+		</tr>
+		<tr>
+			<td align="right"><b>Курс:</b></td>
+			<td>
+				<select tabindex="2.2" name="kurs">
+					<option> Бакалавриат - 1</option>
+					<option> Бакалавриат - 2 </option>
+					<option> Бакалавриат - 3 </option>
+					<option> Бакалавриат - 4 </option>
+					<option> Магистратура - 1 </option>
+					<option> Магистратура - 2 </option>
+				</select>
+			</td>
+		</tr>
+		<tr>
+			<td align="right"><b>Возраст:</b></td>
+			<td><input tabindex="3" size="8" name="bd" /></td>
+		</tr>
+		<tr>
+			<td align="right" valign="top" rowspan="3"><b>Пол:</b></td>
+			<td>
+				<input tabindex="4" type="radio" name="pol" /> Мужской
+			</td>
+		</tr>
+		<tr>
+			<td>
+				<input tabindex="5" type="radio" name="pol" /> Женский
+			</td>
+		</tr>
+		<tr>
+			<td>
+			</td>
+		</tr>
+		<tr>
+			<td align="right" rowspan="2"><b>Как вы относитесь к путешествиям?</b>	</td>
+			<td>
+				<input tabindex="6" type="checkbox" name="Choise-1" /> Есть желание путешествовать
+			</td>
+		</tr>
+		<tr>
+			<td> 
+				<input tabindex="7" type="checkbox" name="Choise-2" /> Есть возможность путешествовать
+			</td>
+		</tr>
+		<tr>
+			<td align="right"><b>Какое время для Вас наиболее удобно?</b></td>
+			<td><select tabindex="8" name="OC">
+					<option> 6:00&mdash;8:00</option>
+					<option> 8:00&mdash;10:00</option>
+					<option> 12:00&mdash;14:00</option>
+					<option> 16:00&mdash;18:00</option>
+				</select>
+			</td>
+		</tr>
+		<tr>
+			<td align="right"><b>Введите кодовое слово:</b></td>
+			<td><input type="password" tabindex="9" size="24" name="parol1" /></td>
+		</tr>
+		<tr>
+			<td align="right"><b>Ваша электронная почта:</b></td>
+			<td><input required type="email" tabindex="10" size="24" name="parol2" /></td>
+		</tr>
+		<tr>
+			<td align="right" valign="top"  width="300" ><b>Если у Вас есть вопросы и вы указали свою электронную почту, Вы можете задать их здесь и получить ответы в течении трёх рабочих дней:</b></td>
+			<td><textarea tabindex="11" name="Wishes" rows="10" cols="50"></textarea></td>
+		</tr><tr>
+			<td align="center"><input tabindex="13" type="reset" value="Обновить форму" name="reset" /></td>
+			<td align="right"><input accesskey="e" tabindex="12" type="submit" value="Подать заявку" name="send" /></td>
+		</tr>
+		</form>
+		</div>
+	</body>
+</html>

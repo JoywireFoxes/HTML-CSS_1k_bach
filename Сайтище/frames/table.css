@@ -1,0 +1,28 @@
+body {
+	background-color:#89AAE6;
+}
+
+table {
+	background-color: #3685B5;
+	border-collapse: collapse;
+	border: 3px solid;
+}
+
+th {
+	background-color: #0471A6;
+	border: 2px solid;
+	font-size: 20px;
+}
+
+td {
+	background-color: #AC80A0;
+	border: 1px solid;
+	text-align: center;
+}
+
+.pic {
+	border: 3px;
+	width: 100px;
+	border-style: solid;
+	border-color: #0471A6;
+}

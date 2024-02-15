@@ -1,0 +1,35 @@
+.main {
+	font-family: 'Arial';
+	font-size: 20px;
+}
+body {
+	background-color: wheat;
+	margin: 50px;
+}
+
+
+table {
+	height: 600px;
+	border-collapse: collapse;
+	border: 3px solid;
+	background-color: #A0E8AF;
+}
+th {
+	border: 1px solid;
+	background-color: #3AB795;
+}
+
+td {
+	border: 1px solid;
+	background-color: #EDEAD0;
+	text-align: center;
+}
+
+li:hover {
+	color: #ff00f0;
+	font-style: italic;
+}
+
+[id='grheader']:hover {
+	color: #000000;
+}
